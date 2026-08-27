@@ -1,0 +1,19 @@
+[project]
+name = "bose-hubbard"
+version = "0.1.0"
+description = "Simulation of Bose-Hubbard models using QuTiP"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "qutip",
+    "matplotlib",
+    "pandas",
+    "qse",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ipykernel",
+]
